@@ -32,6 +32,12 @@ Ask whether changing the business name would leave the design and copy equally p
 
 Implement real content early. Use semantic HTML, coherent tokens, reusable components, and scoped styles. Match the requested deliverable: a local application, platform site, prototype, and live website are different outcomes. A screenshot does not substitute for functioning code when implementation was requested.
 
+Make every visible phrase earn its space by explaining the offer, supplying evidence, guiding an action, or reporting a real state. Remove decorative microcopy, miniature manifestos, faux-casual greetings, and duplicated promises. Examples to reject as invented filler include “open by design,” “independent thinking,” and “your next chapter starts here.” Do not replace deleted filler with different filler. Favor fewer, legible words with concrete intent; retain useful details, labels, and accessibility text.
+
+Do not scatter diagonal arrows along edges, append them to every button, or generate them as bullets through CSS. An icon needs a real interaction or directional meaning. A premium appearance must come from composition, imagery, typography, and craft rather than small labels, repeated symbols, or artificial interface chrome.
+
+For a presentation-led site, explicitly design the unscrolled opening: a clear offer, a usable next action, and a compelling graphic or demonstration visible at the initial viewport. When engaging motion is requested, implement a visible, coherent animation that starts without scrolling or hovering. “Restrained” does not mean static or visually empty. Reduce text and decorative chrome before reducing the main visual's ambition. Include the mobile treatment, reduced-motion state, and performance cost in that decision.
+
 ## Make and optimize the visual assets
 
 Read [assets-and-performance.md](references/assets-and-performance.md) when selecting, generating, or integrating imagery, 3D, video, or effects. Inspect supplied assets first and use them where relevant. Create missing visual assets with available generation tools and their applicable skills. Do not leave empty image slots or ship raw multi-megabyte generations as website assets.

@@ -8,6 +8,10 @@ Run relevant repository lint, type, build, and existing tests. Measure productio
 
 Open actual routes with an available browser/preview. Inspect a narrow phone width (about 360–390 CSS pixels), a middle width, and wide desktop (about 1280–1440); add cases where behavior changes materially. Review screenshots for composition and DOM state for behavior. If unavailable, complete other checks and explicitly identify visual verification as incomplete.
 
+Review the opening at scroll position zero separately from scrolled sections and anchored URLs such as `#work`. Inspect the initial visual and a later animation state; verify that requested motion actually starts without interaction and that the primary graphic is visible on a phone. Check pause and reduced-motion states. A build pass, a high Lighthouse score, or planning-only evaluation cannot establish visual quality or an engaging first impression.
+
+Run a visible-copy and ornament pass: inspect all small labels and art captions, repeated slogans, pseudo-element bullets, corner glyphs, and button suffixes. Delete filler and redundant arrows at the source; do not merely hide them on one breakpoint. Preserve meaningful control labels, real statuses, and factual information. Record the specific visual or copy correction made when a user reports one.
+
 | Area | Evidence |
 | --- | --- |
 | Brief/identity | Required pages/content; type, palette, imagery, and interaction match the direction |

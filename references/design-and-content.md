@@ -8,6 +8,8 @@ Start with artifacts from the business: a manufacturing drawing, an architect's 
 
 Give the first viewport the subject's most informative visual or proposition. A service may need a clear offer and place; a portfolio may open with a project; a product may benefit from a demonstration. Establish what this is, who it serves, and the next useful action without relying on an animation finishing.
 
+Plan the first viewport as a complete composition at the actual desktop and phone sizes, rather than the top of a long page. Keep the primary graphic in view with the offer and action. If the brief calls for animation, name its subject, initial pose, movement, trigger, and fallback before implementation. It must contribute before the visitor scrolls. A nominal CSS drift that is barely perceptible, or motion hidden below the fold, does not satisfy a request for an engaging opening.
+
 Treat saturated patterns as prompts for judgment, not bans. Purple gradients, cream-and-serif branding, neon dark themes, oversized headlines, glass cards, bento grids, orbital ornaments, and editorial rules can suit a brief. They become generic when applied regardless of subject. Explicit user direction takes precedence.
 
 ## Establish a coherent system
@@ -34,10 +36,14 @@ Draft from verified facts and visitor questions. Describe the offer, audience, w
 
 Read aloud and remove stock openings, repeated sentence scaffolds, unsupported superlatives, and empty phrases such as “unlock your potential” when they carry no information. Vary sentences to suit meaning rather than mechanically removing punctuation or making everything short. Avoid faux-human anecdotes and invented specificity.
 
+Audit the small text separately: eyebrows, corner annotations, art captions, marquees, status dots, footer mottos, CTA preambles, and mobile-only messages are common hiding places for filler. Remove phrases like “independent thinking,” “open by design,” and “yo, your next chapter starts here” when invented as decoration. Do not turn a brand name into a string of vague manifestos. If removing a line loses no factual or navigational information, prefer removing it. User-supplied essential brand copy remains authoritative.
+
+Do not use arrows as repeated service bullets, side rails, corner ornaments, or generic button suffixes. Use an icon only when it improves understanding of that control. Keep an external-link cue or directional arrow where it has a specific useful meaning; do not mechanically replace all arrows with stars or plus signs. Inspect pseudo-elements and SVG icons as well as literal text.
+
 Make interface copy operational: “Request a consultation,” “Download the catalogue,” or “Save preferences.” Explain form errors beside the relevant field. Give loading, empty, and success states a useful next action. Do not add uppercase eyebrows, numbering, or arrows solely to fill space.
 
 ## Make motion earn its cost
 
-Prefer direct feedback and state transitions. If an entrance sequence serves the direction, choreograph it once and keep important content available immediately. Avoid making every section slide in, headings that destabilize layout, custom cursors that replace usable pointers, and scroll hijacking.
+Prefer direct feedback and state transitions for utility surfaces. For an expressive marketing brief, give the main visual confident motion: for example, a dimensional object assembling, an interactive product demonstration, or a deliberate sequence of project imagery. Choose the effect from the subject rather than a preset. If an entrance sequence serves the direction, choreograph it once and keep important content available immediately. Avoid making every section slide in, headings that destabilize layout, custom cursors that replace usable pointers, and scroll hijacking. Continuous ambient movement needs a pause mechanism when appropriate.
 
 Use transform and opacity where practical, honor reduced motion, stop offscreen loops, and keep input feedback immediate. Follow the brief and device capability: an immersive brand site and a booking form need different levels of expression.
