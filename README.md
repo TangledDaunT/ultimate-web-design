@@ -1,6 +1,6 @@
 # Ultimate Web Design
 
-A Codex skill for building distinctive business websites from a brief, with deliberate UI/UX, responsive implementation, supplied or generated imagery, fast assets, and search-ready content.
+A Codex skill that turns one business brief into an image-led, dimensional website. It handles art direction, original image generation, polished SVG/3D artifacts, useful interactive panels, responsive code, asset optimization and search readiness.
 
 ## Install
 
@@ -15,19 +15,22 @@ If the skill is already installed, preserve any local changes before replacing o
 
 ## Use
 
-Invoke `$ultimate-web-design` with your business, target audience, website type, primary visitor action, and any brand material or images you have.
+Give `$ultimate-web-design` a natural-language business brief. The skill handles the visual direction, imagery and artifacts; you do not need to request images or 3D work separately. Include any real business facts, brand constraints and primary action you already know. It asks only when essential information is missing.
 
 For example:
 
 ```text
 $ultimate-web-design Build a website for my bicycle repair workshop in Pune.
-The primary action is requesting an appointment. Use a practical, warm visual
-identity. Ask for essential missing business information before implementation.
+We repair bicycles by appointment, and the main action is requesting a booking.
 ```
 
-The skill supports business-specific visual directions, natural copy, 3D figures and glowing orbs where appropriate, image generation through available tools, accessibility, responsive layouts, performance, technical SEO, and generative-search readiness. Image generation and browser verification depend on tools available in your environment. The six source repositories are not installation dependencies.
+The default for open marketing/portfolio briefs is a visually rich composition with original artwork, dimensional layers and a coherent scroll journey. Interactions must help visitors inspect work, understand services, compare meaningful options or take action. Arbitrary shape playgrounds, filler slogans and decorative arrow rails are excluded. Explicit brand or restrained-design requirements take precedence. Image generation and browser verification depend on tools available in your environment. The six source repositories are not installation dependencies.
 
 Read [SKILL.md](SKILL.md) for the workflow, [design and content](references/design-and-content.md) for visual guidance, and [verification](references/verification.md) for delivery checks.
+
+## Preview
+
+[Explore the Open Limits website](https://open-limits-studio-premium.admin794311.chatgpt.site/) to see the image-led visual quality, floating project previews and continuous scroll thread. It is a visual-quality reference, not a template that forces its palette or layout onto every business.
 
 ## Image optimizer
 

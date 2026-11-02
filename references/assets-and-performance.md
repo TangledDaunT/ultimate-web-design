@@ -20,6 +20,8 @@ If generation is unavailable, use suitable licensed media, provided assets, or d
 | Logos/simple diagrams | SVG, sanitized if untrusted | ViewBox, accessible naming, complexity |
 | Photography/textured illustration | Responsive WebP/AVIF, fallback as needed | Detail, color, crop, actual browser requests |
 
+Custom SVG is welcome for polished illustration, depth layers and scroll-connected graphics. Use precise paths, a correct viewBox, a consistent material/lighting language and restrained gradients or filters that support the subject. Keep path complexity and animated filter cost low; animate transforms or stroke properties where practical. Sanitize untrusted SVG, give informative graphics an accessible name and hide decorative ones from assistive technology. Keep headings, essential copy and links in semantic HTML. SVG does not confer a ranking advantage by itself; efficient delivery, clear content and accessibility are the useful outcomes.
+
 For live 3D, reduce geometry/textures, compress with compatible loaders, cap pixel ratio, render on demand where possible, pause when hidden, and dispose resources. Keep text/actions outside the canvas. Test mobile fallback and reduced motion. Do not add WebGL merely to display a static shape.
 
 ## Export raster derivatives

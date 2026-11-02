@@ -18,7 +18,7 @@ Treat saturated patterns as prompts for judgment, not bans. Purple gradients, cr
 - Give typefaces a reason: material character, voice, language coverage, and readable density. Usually one or two families suffice. Limit weights. Set fluid scales, line height, and sensible text widths, generally around 45–75 characters for long body text.
 - Align deliberately. Build hierarchy with scale, placement, spacing, and relationships before boxes. Cards suit independent, comparable items, not every paragraph.
 - Use consistent spacing, radii, elevation, and layer tokens. Let hierarchy explain differences. Avoid late selector overrides that conceal a broken layout rule.
-- Choose one dominant expressive moment and quieter supporting elements. Change composition when the information changes, rather than alternating layouts for variety.
+- Establish a hierarchy of expressive moments. For a restrained brief, one main visual may suffice; for an immersive brief, build a connected sequence of art, interactions and dimensional scenes rather than reducing the whole site to one hero object. Change composition when the information changes, rather than alternating layouts for variety.
 
 For substantial sites, record stable decisions in the existing design-system document and implement them in CSS variables or the established theme. Keep page exceptions local. Do not create a parallel source of truth.
 

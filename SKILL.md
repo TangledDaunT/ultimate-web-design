@@ -1,11 +1,13 @@
 ---
 name: ultimate-web-design
-description: Build or redesign distinctive business websites from a brief, combining brand-specific UI/UX, supplied or generated imagery, responsive code, asset optimization, technical SEO, and generative-search readiness. Use for complete websites and substantial redesigns; keep narrow bug fixes and standalone SEO audits scoped to their own tasks.
+description: Build or redesign image-led, dimensional business websites from a single brief, creating the imagery, polished SVG/3D artifacts, purposeful interactions, responsive code, fast assets, and search-ready content. Use for complete websites and substantial redesigns; keep narrow bug fixes and standalone SEO audits scoped to their own tasks.
 ---
 
 # Ultimate Web Design
 
 Turn a business brief and website type into a convincing, usable website with a visual identity grounded in that business. Aim for work that feels commissioned and carefully edited. For build requests, deliver functioning implementation and evidence of quality; honor planning-only requests at their requested scope. Treat “perfect” as an ambition to test against the brief, never a guarantee of rankings or universal taste.
+
+The normal starting input is one natural-language prompt about the business and desired website. Own the art direction, imagery, SVG/3D asset production, interactions and implementation; do not make the user separately commission assets or specify every visual detail. For an open-ended marketing or portfolio brief, default to a visually rich, image-led, dimensional result with a coherent scroll journey. Adapt its palette, materials and composition to the business rather than cloning a dark/orange showcase. Preserve explicit brand, platform, accessibility and performance constraints, and ask only for genuinely essential missing information.
 
 ## Establish the brief and execution surface
 
@@ -22,7 +24,7 @@ Research current facts and references when useful. Prefer official business mate
 Before substantial UI implementation, read [design-and-content.md](references/design-and-content.md). Make a compact direction note in the existing project design document, or the working plan if no durable document is warranted:
 
 - Visitor goal, information hierarchy, and primary action.
-- A business-specific visual idea: palette, type roles, composition, and one memorable asset or interaction.
+- A business-specific visual system: palette, type roles, composition, original imagery, dimensional artifacts and purposeful interactions across the page.
 - Content-led page structure and responsive behavior.
 - Asset needs and a concrete definition of done.
 
@@ -38,9 +40,15 @@ Do not scatter diagonal arrows along edges, append them to every button, or gene
 
 For a presentation-led site, explicitly design the unscrolled opening: a clear offer, a usable next action, and a compelling graphic or demonstration visible at the initial viewport. When engaging motion is requested, implement a visible, coherent animation that starts without scrolling or hovering. “Restrained” does not mean static or visually empty. Reduce text and decorative chrome before reducing the main visual's ambition. Include the mobile treatment, reduced-motion state, and performance cost in that decision.
 
+For new presentation-led websites, read [immersive-experiences.md](references/immersive-experiences.md), unless an explicit brief calls for a restrained treatment. Carry the visual idea through the scroll journey with substantial imagery, purposeful interactive surfaces, and connected dimensional compositions. A sparse hero, an isolated rotating logo, and conventional sections underneath do not meet this skill's normal visual ambition. Minimal copy is compatible with rich visual design; do not mistake it for a request to simplify the experience.
+
+Every interactive panel must help visitors understand an offer, inspect real work, compare meaningful options, navigate or act. Do not add a standalone shape playground, rotation slider, material switcher or “play with perspective” section just to demonstrate WebGL. Those controls belong only when the actual business task or an explicit request requires an object viewer or configurator. Decorative 3D may be integrated into the composition or scroll choreography without becoming a separate destination.
+
 ## Make and optimize the visual assets
 
 Read [assets-and-performance.md](references/assets-and-performance.md) when selecting, generating, or integrating imagery, 3D, video, or effects. Inspect supplied assets first and use them where relevant. Create missing visual assets with available generation tools and their applicable skills. Do not leave empty image slots or ship raw multi-megabyte generations as website assets.
+
+Treat original asset creation as part of the build. Generate suitable raster artwork when the composition needs it, and create custom SVG or procedural 3D for crisp graphics, connecting lines and dimensional layers. Integrate the assets prominently, optimize them, and inspect the final composition. Do not substitute generic boxes or primitive shapes for the promised imagery. Use the medium that best delivers the visual; a raster image of a complex scene and a lightweight SVG interaction can coexist.
 
 3D figures, glowing orbs, custom illustrations, photography, and product visuals are available creative choices. Include them when requested or when they strengthen the direction. Give them a clear compositional role, appropriate lighting, and mobile treatment. Choose CSS, SVG, an optimized raster render, or live 3D according to the actual interaction need and measured cost. Keep the message and controls available if effects fail or motion is reduced.
 

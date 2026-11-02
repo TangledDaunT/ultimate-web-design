@@ -12,6 +12,8 @@ Review the opening at scroll position zero separately from scrolled sections and
 
 Run a visible-copy and ornament pass: inspect all small labels and art captions, repeated slogans, pseudo-element bullets, corner glyphs, and button suffixes. Delete filler and redundant arrows at the source; do not merely hide them on one breakpoint. Preserve meaningful control labels, real statuses, and factual information. Record the specific visual or copy correction made when a user reports one.
 
+Review every interactive panel for visitor value. Remove standalone shape demos and arbitrary controls that do not explain the offer, reveal real work, support comparison or enable an intended action. When removing a rejected scene, also remove its controls, unused rendering code and styles, repair anchors, and reconnect any continuous scroll motif; verify the surrounding transitions rather than leaving an empty gap.
+
 | Area | Evidence |
 | --- | --- |
 | Brief/identity | Required pages/content; type, palette, imagery, and interaction match the direction |
